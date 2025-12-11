@@ -1,0 +1,16 @@
+
+openapi: 3.0.0
+info:
+  title: Phase 8 API
+  version: 1.0.0
+servers:
+  - url: http://phase8-service.local
+paths:
+  /process:
+    post:
+      summary: Process Phase 8
+      requestBody:
+        required: true
+      responses:
+        '200':
+          description: OK

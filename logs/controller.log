@@ -1,0 +1,25 @@
+2025-12-05T15:39:30.583812	jobs:create	{'id': 2, 'source_path': 'docs/sample.pdf', 'language': 'en', 'status': 'created'}
+2025-12-05T15:39:30.614074	incidents:create	{'id': 2, 'title': 'Test Incident', 'severity': 'low', 'status': 'open'}
+2025-12-05T15:39:30.617327	phase1:ocr	{'source_path': 'docs/sample.pdf', 'language': 'en', 'result': {'text': '[OCR simulated] from docs/sample.pdf (en)', 'blocks': [{'type': 'paragraph', 'text': '[OCR simulated] from docs/sample.pdf (en)'}]}}
+2025-12-05T15:39:30.633293	phase2:layout	{'result': {'layout': [{'id': 1, 'type': 'title', 'text': 'Title here. Body content goes here.'}, {'id': 2, 'type': 'body', 'text': ''}]}}
+2025-12-05T15:39:30.639912	phase3:chunk	{'count': 3}
+2025-12-05T15:42:09.444665+00:00	jobs:create	{'id': 3, 'source_path': 'docs/sample.pdf', 'language': 'en', 'status': 'created'}
+2025-12-05T15:42:09.468352+00:00	incidents:create	{'id': 3, 'title': 'Test Incident', 'severity': 'low', 'status': 'open'}
+2025-12-05T15:42:09.474630+00:00	phase1:ocr	{'source_path': 'docs/sample.pdf', 'language': 'en', 'result': {'text': '[OCR simulated] from docs/sample.pdf (en)', 'blocks': [{'type': 'paragraph', 'text': '[OCR simulated] from docs/sample.pdf (en)'}]}}
+2025-12-05T15:42:09.480160+00:00	phase2:layout	{'result': {'layout': [{'id': 1, 'type': 'title', 'text': 'Title here. Body content goes here.'}, {'id': 2, 'type': 'body', 'text': ''}]}}
+2025-12-05T15:42:09.485825+00:00	phase3:chunk	{'count': 3}
+2025-12-05T15:45:44.288518+00:00	jobs:create	{'id': 4, 'source_path': 'docs/sample.pdf', 'language': 'en', 'status': 'created'}
+2025-12-05T15:45:44.303517+00:00	incidents:create	{'id': 4, 'title': 'Test Incident', 'severity': 'low', 'status': 'open'}
+2025-12-05T15:45:44.321101+00:00	phase1:ocr	{'source_path': 'docs/sample.pdf', 'language': 'en', 'result': {'text': '[OCR simulated] from docs/sample.pdf (en)', 'blocks': [{'type': 'paragraph', 'text': '[OCR simulated] from docs/sample.pdf (en)'}]}}
+2025-12-05T15:45:44.327557+00:00	phase2:layout	{'result': {'layout': [{'id': 1, 'type': 'title', 'text': 'Title here. Body content goes here.'}, {'id': 2, 'type': 'body', 'text': ''}]}}
+2025-12-05T15:45:44.334819+00:00	phase3:chunk	{'count': 3}
+2025-12-05T15:47:37.666871+00:00	jobs:create	{'id': 5, 'source_path': 'docs/sample.pdf', 'language': 'en', 'status': 'created'}
+2025-12-05T15:47:37.693851+00:00	incidents:create	{'id': 5, 'title': 'Test Incident', 'severity': 'low', 'status': 'open'}
+2025-12-05T15:47:37.707228+00:00	phase1:ocr	{'source_path': 'docs/sample.pdf', 'language': 'en', 'result': {'text': '[OCR simulated] from docs/sample.pdf (en)', 'blocks': [{'type': 'paragraph', 'text': '[OCR simulated] from docs/sample.pdf (en)'}]}}
+2025-12-05T15:47:37.707228+00:00	phase2:layout	{'result': {'layout': [{'id': 1, 'type': 'title', 'text': 'Title here. Body content goes here.'}, {'id': 2, 'type': 'body', 'text': ''}]}}
+2025-12-05T15:47:37.729548+00:00	phase3:chunk	{'count': 3}
+2025-12-05T15:49:09.127127+00:00	jobs:create	{'id': 6, 'source_path': 'docs/sample.pdf', 'language': 'en', 'status': 'created'}
+2025-12-05T15:49:09.157765+00:00	incidents:create	{'id': 6, 'title': 'Test Incident', 'severity': 'low', 'status': 'open'}
+2025-12-05T15:49:09.159596+00:00	phase1:ocr	{'source_path': 'docs/sample.pdf', 'language': 'en', 'result': {'text': '[OCR simulated] from docs/sample.pdf (en)', 'blocks': [{'type': 'paragraph', 'text': '[OCR simulated] from docs/sample.pdf (en)'}]}}
+2025-12-05T15:49:09.159596+00:00	phase2:layout	{'result': {'layout': [{'id': 1, 'type': 'title', 'text': 'Title here. Body content goes here.'}, {'id': 2, 'type': 'body', 'text': ''}]}}
+2025-12-05T15:49:09.176862+00:00	phase3:chunk	{'count': 3}
