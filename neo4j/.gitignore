@@ -1,0 +1,13 @@
+# Ignore everything
+*
+!.gitignore
+
+# Except these pipeline/KG builder files
+!graphrag_pipeline.py
+!graphrag_standard_pipeline.py
+!backup_graphrag_pipeline.py
+!rag_query.py
+
+# Also keep these important files
+# !.env
+!README.md

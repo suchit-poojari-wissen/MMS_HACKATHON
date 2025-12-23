@@ -1,3 +1,8 @@
 .venv/
-venv/
+vgraph/
 data/
+exp/
+graphrag/
+.graphrag/
+.env
+*.env.local
